@@ -44,7 +44,7 @@ export default function Signup() {
       return;
     }
 
-    // 🔥 SAVE USER
+    // 🔥 SAVE USER to localstorage
     localStorage.setItem("user", JSON.stringify(formData));
 
     // 🔥 SHOW SUCCESS
