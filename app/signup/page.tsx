@@ -58,13 +58,15 @@ export default function Signup() {
     }, 3000); // 3 sec ठेवले आहे clearly दिसण्यासाठी
   };
 
+
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
 
       {/* ✅ SUCCESS POPUP */}
       {success && (
         <div className="fixed top-5 left-1/2 -translate-x-1/2 bg-green-500 text-white px-6 py-3 rounded-lg shadow-xl z-[9999]">
-          Account Created Successfully ✅
+        The  Account Created Successfully ✅
         </div>
       )}
 
